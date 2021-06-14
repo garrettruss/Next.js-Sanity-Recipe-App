@@ -20,6 +20,8 @@ export default function Home({ recipes }) {
 
       <h1>Welcome to Garrett's Kitchen 🍍</h1>
 
+      <h3>Here are a few of my favorite recipes.</h3>
+
       <ul className="recipes-list">
         {recipes?.length > 0 &&
           recipes.map((recipe) => (
