@@ -22,6 +22,10 @@ export default function Home({ recipes }) {
 
       <h3>Here are a few of my favorite recipes.</h3>
 
+      <div>
+        For more suggestions on recipes to add, please contact us!
+      </div>
+
       <ul className="recipes-list">
         {recipes?.length > 0 &&
           recipes.map((recipe) => (
